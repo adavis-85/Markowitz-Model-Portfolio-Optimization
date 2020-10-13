@@ -3,7 +3,7 @@
   Using the trading data from the last five years a Markowitz portfolio optimization is made.  The six stocks are Apple, Coke,
 Home Depot, Qualcomm, Tesla and Walmart.  The Markowitz model of portfolio optimization is to find the maximum return while minimizing the risk of a given portfolio.  The parameters or weights that are found to accomplish the objectives are the percentages of the investment to invest in each available asset.  
    
-   wikipedia.org/wiki/Modern_portfolio_theory
+https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
 The weights are chosen out of a 60000 by 6 random weights matrix.  For each set of weights the return and risk are calculated.  An optimal value can be chosen but normally there is a trade off when dealing with multiple objectives.  A Pareto front is a selection of objectives that are non dominant over all of other solutions.  Having solutions that are non dominant allows for a trade-off between what is desired.  Since our goal is to have a maximum return with minimum risk or variance, each portfolio in our non dominated list will have a trade-off between objectives.  No one portfolio is strictly better than the
 next portfolio in both objectives.  For this purpose if a a higher return is desired then the risk would also increase.  If a lower risk is desired then a lower return would be the result.  Moving from one solution in our Pareto fronteir to the next would have to result in this tradeoff. The graphs of the data and the pareto curve are as follows:
