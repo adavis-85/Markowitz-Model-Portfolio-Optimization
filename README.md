@@ -1,7 +1,6 @@
 # Markowitz-Model-Portfolio-Optimization
 
-  Using the trading data from the last five years a Markowitz portfolio optimization is made.  The six stocks are Apple, Coke,
-Home Depot, Qualcomm, Tesla and Walmart.  The Markowitz model of portfolio optimization is to find the maximum return while minimizing the risk of a given portfolio.  The parameters or weights that are found to accomplish the objectives are the percentages of the investment to invest in each available asset.  
+  Using the daily trading data from the last five years a Markowitz portfolio optimization is made for six assets.  The six stocks are Apple, Coke, Home Depot, Qualcomm, Tesla and Walmart.  The Markowitz model of portfolio optimization is to find the maximum return while minimizing the risk of a given portfolio.  The parameters or weights that are found to accomplish the objectives are the percentages of the investment to invest in each available asset.  
    
 https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
