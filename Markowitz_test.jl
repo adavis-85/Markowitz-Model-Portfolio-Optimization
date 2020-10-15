@@ -44,6 +44,16 @@ expected_return=new_r'ones(1258)*(1/1258)
  0.0023025577958828134 
  0.0008093645364203608 
 
+##Return % for each asset during the overall time period. 5 years.  
+period_return_assets=expected_return .*(1258*100) 
+
+ 175.47360002304663 
+ 111.97232431704035 
+  53.272595351120195
+ 125.94926393282141 
+ 289.66177072205795 
+ 101.81805868168139 
+
 function covariance_matrix(mate,avges)
     
     a,b=size(mate)
