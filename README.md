@@ -12,7 +12,7 @@ The covariance of each asset in accordance with all other assets including itsel
 
 <img width="350" alt="sigma_covariance" src="https://user-images.githubusercontent.com/58529391/96387476-0c3bba80-1157-11eb-8fa6-c277cdbbdde7.png">
 
-Lastly the objective is to maximize the return of the portfolio while minimizing its risk.  The constraint is that all funds must be split among all assets with no negative amounts or shorts.
+Lastly the objective is to maximize the return of the portfolio while minimizing its risk.  The constraint is that all funds must be split among all assets with no negative amounts or shorts.  The amount invested must not exceed the amount on hand.  
 
 <img width="350" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
 
