@@ -4,7 +4,21 @@
    
 https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
-The parameters are chosen out of a 60000 by 6 random matrix.  For each set of weights the return and risk are calculated.  An optimal value can be chosen but normally there is a trade off when dealing with multiple objectives.  A Pareto front is a selection of objectives that are non dominant over all of other solutions.  Having solutions that are non dominant allows for a trade-off between what is desired.  Since our goal is to have a maximum return with minimum risk or variance, each portfolio in our non dominated list will have a trade-off between objectives.  No one portfolio is strictly better than the
+The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.
+
+<img width="265" alt="rate of return" src="https://user-images.githubusercontent.com/58529391/96387444-d26ab400-1156-11eb-97bc-329bc5c016b2.png">
+
+<img width="265" alt="expeected return" src="https://user-images.githubusercontent.com/58529391/96387439-c1ba3e00-1156-11eb-9db3-8b3e58f934bd.png">
+
+The covariance of each asset in accordance with all other assets including itself is then calculated and collected in a square symmetrical matrix.
+
+<img width="265" alt="sigma_covariance" src="https://user-images.githubusercontent.com/58529391/96387476-0c3bba80-1157-11eb-8fa6-c277cdbbdde7.png">
+
+Lastly the objective is to maximize the return of the portfolio while minimizing its risk.  The constraint is that all funds must be split among all assets with no negative amounts or shorts.
+
+<img width="265" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
+
+An optimal value can be chosen but normally there is a trade off when dealing with multiple objectives.  A Pareto front is a selection of objectives that are non dominant over all of other solutions.  Having solutions that are non dominant allows for a trade-off between what is desired.  Since our goal is to have a maximum return with minimum risk or variance, each portfolio in our non dominated list will have a trade-off between objectives.  No one portfolio is strictly better than the
 next portfolio in both objectives.  For this purpose if a a higher return is desired then the risk would also increase.  If a lower risk is desired then a lower return would be the result.  Moving from one solution in our Pareto fronteir to the next would have to result in this tradeoff. The graphs of the data and the pareto curve are as follows:
 
 ![Data and pareto](https://user-images.githubusercontent.com/58529391/95814311-efbefe80-0cce-11eb-9406-fcdd67405d23.png)
