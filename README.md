@@ -14,7 +14,7 @@ The covariance of each asset in accordance with all other assets including itsel
 
 Lastly the objective is to maximize the return of the portfolio while minimizing its risk.  The constraint is that all funds must be split among all assets with no negative amounts or shorts.  The amount invested must not exceed the amount on hand.  
 
-<img width="400" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
+<img width="300" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
 
 An optimal value can be chosen but normally there is a trade off when dealing with multiple objectives.  A Pareto front is a selection of objectives that are non-dominant over all of other solutions.  Having solutions that are non-dominant allows for a trade-off between what is desired.  Since our goal is to have a maximum return with minimum risk or variance, each portfolio in our non-dominated list will have a trade-off between objectives.  No one portfolio is strictly better than the
 next portfolio in both objectives.  For this purpose, if a higher return is desired then the risk would also increase.  If a lower risk is desired, then a lower return would be the result.  Moving from one solution in our Pareto frontier to the next would have to result in this tradeoff. The graphs of the data and the pareto curve are as follows:
