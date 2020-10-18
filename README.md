@@ -4,11 +4,9 @@
    
 https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
-The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.
+The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.  The return is calculated from the different between a days closing price and the next days closing price.
 
-<img width="265" alt="rate of return" src="https://user-images.githubusercontent.com/58529391/96387444-d26ab400-1156-11eb-97bc-329bc5c016b2.png">
-
-<img width="265" alt="expeected return" src="https://user-images.githubusercontent.com/58529391/96387439-c1ba3e00-1156-11eb-9db3-8b3e58f934bd.png">
+<img width="265" alt="Screen Shot 2020-10-18 at 3 43 52 PM" src="https://user-images.githubusercontent.com/58529391/96387678-d0a1f000-1158-11eb-96f6-359452f3d467.png">
 
 The covariance of each asset in accordance with all other assets including itself is then calculated and collected in a square symmetrical matrix.
 
