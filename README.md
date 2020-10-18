@@ -6,15 +6,15 @@ https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
 The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.  The return is calculated from the different between a days closing price and the next days closing price.
 
-<img width="265" alt="Screen Shot 2020-10-18 at 3 43 52 PM" src="https://user-images.githubusercontent.com/58529391/96387678-d0a1f000-1158-11eb-96f6-359452f3d467.png">
+<img width="350" alt="Screen Shot 2020-10-18 at 3 43 52 PM" src="https://user-images.githubusercontent.com/58529391/96387678-d0a1f000-1158-11eb-96f6-359452f3d467.png">
 
 The covariance of each asset in accordance with all other assets including itself is then calculated and collected in a square symmetrical matrix.
 
-<img width="265" alt="sigma_covariance" src="https://user-images.githubusercontent.com/58529391/96387476-0c3bba80-1157-11eb-8fa6-c277cdbbdde7.png">
+<img width="350" alt="sigma_covariance" src="https://user-images.githubusercontent.com/58529391/96387476-0c3bba80-1157-11eb-8fa6-c277cdbbdde7.png">
 
 Lastly the objective is to maximize the return of the portfolio while minimizing its risk.  The constraint is that all funds must be split among all assets with no negative amounts or shorts.
 
-<img width="265" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
+<img width="350" alt="objective" src="https://user-images.githubusercontent.com/58529391/96387442-cc74d300-1156-11eb-9675-eb64dd9b74a2.png">
 
 An optimal value can be chosen but normally there is a trade off when dealing with multiple objectives.  A Pareto front is a selection of objectives that are non dominant over all of other solutions.  Having solutions that are non dominant allows for a trade-off between what is desired.  Since our goal is to have a maximum return with minimum risk or variance, each portfolio in our non dominated list will have a trade-off between objectives.  No one portfolio is strictly better than the
 next portfolio in both objectives.  For this purpose if a a higher return is desired then the risk would also increase.  If a lower risk is desired then a lower return would be the result.  Moving from one solution in our Pareto fronteir to the next would have to result in this tradeoff. The graphs of the data and the pareto curve are as follows:
