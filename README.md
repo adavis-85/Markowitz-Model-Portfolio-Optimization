@@ -4,7 +4,7 @@
    
 https://en.wikipedia.org/wiki/Modern_portfolio_theory
    
-The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.  The rate of return is calculated from the difference between a days closing price and the next days closing price.  The expected return for each asset is then calculated over all time periods.
+The parameters are chosen out of a 60000 by 6 random matrix.  For each example portfolio allocation the rate of return and the average expected return are calculated.  The rate of return is calculated from the difference between a time period's closing price and the closing price of the period before.  The expected return for each asset is then calculated over all time periods.
 
 <img width="400" alt="Screen Shot 2020-10-18 at 4 12 38 PM" src="https://user-images.githubusercontent.com/58529391/96388287-cbdf3b00-115c-11eb-934b-9e5327fe37a0.png">
 
